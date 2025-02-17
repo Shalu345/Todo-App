@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: blue;
+    margin-left: 33%;
+    margin-top:5px;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid black;
+    outline: none;
+    font-size: 19px;
+}
+.inputs{
+display: flex;
+gap: 20px;
+align-items: center;
+}
+
+button{
+    width: 160px;
+    height: 41px;
+    background-color: rgb(187, 187, 133);
+    color: white;
+    border-radius: 12px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.text ul{
+    background-color:rgb(35, 185, 35);
+    position: relative;
+    color: white;
+    font-size: 19px;
+    text-align: left;
+    padding: 10px;
+     border-radius: 10px;
+}
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
